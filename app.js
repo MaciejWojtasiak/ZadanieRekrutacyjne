@@ -51,7 +51,7 @@ const nextButton = document.querySelector('.btn');
 nextButton.addEventListener('click', displayImages);
 
 function renderImage(imgUrl) {
-    const renderUrl = 'http://source.unsplash.com/';
+    const renderUrl = 'https://source.unsplash.com/';
 
     const imageDiv = document.createElement('div');
     imageDiv.classList.add('image');
